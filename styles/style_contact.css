@@ -1,0 +1,43 @@
+form {
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 50px;
+}
+form input{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: white;
+    transition: all 1s ease;
+}
+form input:hover{
+    border-color: black;
+}
+form input:focus{
+    background-color: blueviolet;
+    color: white;
+}
+.bouton{
+    color: #7b38d8;
+}
+.bouton:hover{
+    background-color: #7b38d8;
+    color: white;
+    cursor: pointer;
+}
+body {
+    background-color: lightpink;
+    align-items: center;
+}
+form > div {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-family: "Freestyle Script";
+    font-size: 50px;
+}

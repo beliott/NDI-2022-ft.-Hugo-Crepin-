@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>jeux</title>
+  <link rel="stylesheet" type="text/css" href="styles/style_jeu.css">
+  <script src="jeux.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="histoire">
+    <h2 id="titre">Introduction de l'histoire :</h2>
+    <p id="contexte">
+      Camille viens de rentrer au lycée.
+      Iel rentre dans l'age des amours et commence a faire des rencontres.
+      Iel ne sait pas quoi et aimerait bien que quelqu'un l'aide.
+      Pouvez vous être cette personne ?
+    </p>
+
+  </div>
+
+
+
+  <div class="bouton">
+    <div id="choix">
+      <p id="choix1label">Incarnez une femme</p>
+        <button id="chx1" class="1" onclick="phaseSuivant(this.className)">Choix1</button>
+    </div>
+    <div id="choix">
+      <p id="choix2label">Incarnez un Homme</p>
+        <button id="chx2" class="1" onclick="phaseSuivant(this.className)">Choix2</button>
+        
+    </div>
+  </div>
+  <img src="/styles/sound.png" onclick="speech()"></img>
+
+
+</body>
+
+</html>

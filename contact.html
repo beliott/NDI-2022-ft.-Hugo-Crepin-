@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles/style_contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h1>Contacter  nous</h1>
+
+
+
+
+<form action="sendToMySecondYearInIut.php" method="get">
+
+    <div>
+
+        <label for="name">Nom / Prénom</label>
+        <input id="surname" name="uname" type="text" placeholder="Entrez votre nom">
+        <input id="name" name="name" type="text" placeholder="Entrez votre prénom">
+
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Entrez votre email">
+    </div>
+    <div>
+        <label for="CodePostal">Code postal</label>
+        <input type="number" name="codepostal" id="codepostal" max="99999" min="1000" value="1000">
+    </div>
+    <div>
+        <label for="pays">Pays</label>
+        <select id="pays" name="pays" >
+            <option values="fr">France</option>
+            <option values="usa">U.S.A</option>
+            <option values="ch">Chine</option>
+            <option values="vn">Viet Nam</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="datedecontact">Date de contact</label>
+        <input id="datedecontact" name="datedecontact" type="date">
+    </div>
+    <div>
+        <label for="commentaire">Commentaire</label>
+        <textarea id="commentaire" name="commentaire" placeholder="Ecrire ici ..."></textarea>
+    </div>
+    <div>
+        <input class="bouton" type="submit" value="Envoyer le formulaire">
+    </div>
+
+</form>
+<footer>
+</footer>
+</body>
+</html>
